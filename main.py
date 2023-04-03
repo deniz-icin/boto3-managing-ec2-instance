@@ -78,6 +78,7 @@ def main():
     do_again()
 
 def do_again():
+    print("\n")
     again = input("Do you want to do anything else? (y/n):")
     if again == "n":
         sys.exit()
